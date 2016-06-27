@@ -7,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.codingbat.warmup1.MonkeyTrouble;
-import com.codingbat.warmup1.SleepIn;
 
 public class MonkeyTroubleTest {
 	static MonkeyTrouble mt;
