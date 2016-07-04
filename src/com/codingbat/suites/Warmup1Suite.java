@@ -1,9 +1,5 @@
 package com.codingbat.suites;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
-
 import com.codingbat.warmup1.tests.BackAroundTest;
 import com.codingbat.warmup1.tests.Close10Test;
 import com.codingbat.warmup1.tests.DelDelTest;
@@ -35,6 +31,10 @@ import com.codingbat.warmup1.tests.StartHiTest;
 import com.codingbat.warmup1.tests.StartOzTest;
 import com.codingbat.warmup1.tests.StringETest;
 import com.codingbat.warmup1.tests.SumDoubleTest;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({ BackAroundTest.class, Close10Test.class, DelDelTest.class, Diff21Test.class, EndUpTest.class,
