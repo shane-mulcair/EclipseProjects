@@ -1,10 +1,12 @@
-package com.codingbat.array1;
+package com.codingbat.array1.tests;
 
 import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.codingbat.array1.SameFirstLast;
 
 public class SameFirstLastTest {
 	SameFirstLast sfl;
