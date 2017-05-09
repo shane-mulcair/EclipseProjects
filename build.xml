@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project name="CodingBat">
+	<target name="unittest">
+		<junit showoutput="true" haltonfailure="false" printsummary="on">
+			<test name="com.codingbat.suites.Array1Suite" />
+		</junit>
+	</target>
+	<target name="unittest2">
+			<junit showoutput="true" haltonfailure="false" printsummary="yes">
+				<test name="com.codingbat.string2.tests.BobThereTest" />
+			</junit>
+		</target>
+</project>
